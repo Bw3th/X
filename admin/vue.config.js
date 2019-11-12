@@ -1,4 +1,4 @@
-const path = require('path')
+﻿const path = require('path')
 
 const resolve = dir => {
   return path.join(__dirname, dir)
@@ -13,7 +13,7 @@ const resolve = dir => {
 // 需要将它改为'/my-app/'
 // iview-admin线上演示打包路径： https://file.iviewui.com/admin-dist/
 const BASE_URL = process.env.NODE_ENV === 'production'
-  ? '/admin/'
+  ? '/admin/dist/'
   : '/'
 
 module.exports = {
