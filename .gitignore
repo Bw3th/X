@@ -1,0 +1,4 @@
+admin/node_modules/
+server/vendor/zendframework/zend-diactoros/src/Response/SapiEmitterTrait.php
+server/vendor/
+admin/dist/
